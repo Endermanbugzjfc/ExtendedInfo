@@ -1,0 +1,9 @@
+name: ExtendedInfo
+author: Endermanbugzjfc
+version: 1.0.0
+api: 4.0.0
+main: Endermanbugzjfc\ExtendedInfo\ExtendedInfo
+src-namespace-prefix: Endermanbugzjfc\ExtendedInfo
+
+depend:
+  - InfoAPI
