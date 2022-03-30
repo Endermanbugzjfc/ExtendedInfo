@@ -7,7 +7,7 @@ namespace Endermanbugzjfc\ExtendedInfo\Plugin;
 use Endermanbugzjfc\ExtendedInfo\DeviceInfo;
 use pocketmine\plugin\PluginBase;
 
-final class ExtendedInfo extends PluginBase
+final class MainClass extends PluginBase
 {
     protected function onLoad() : void
     {
