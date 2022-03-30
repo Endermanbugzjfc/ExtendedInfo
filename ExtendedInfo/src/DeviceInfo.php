@@ -18,11 +18,14 @@ final class DeviceInfo extends Info
     ) {
     }
 
-    public static function init() : void
+    public function toString() : string
     {
+        $model = $this->deviceModel->toString();
+        $os = $this->operatingSystem->toString();
+        return "$model, running on $os";
     }
 
-    public function toString() : string
+    public static function init() : void
     {
     }
 }
