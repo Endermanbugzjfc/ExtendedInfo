@@ -1,0 +1,21 @@
+{
+  "name": "endermanbugzjfc/extendedinfo",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "pocketmine/pocketmine-mp": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Endermanbugzjfc\\ExtendedInfo\\": "ExtendedInfo/src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Endermanbugzjfc\\ExtendedInfo\\": [
+        "tests/",
+        "tools/"
+      ]
+    }
+  }
+}
