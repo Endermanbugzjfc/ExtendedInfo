@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Endermanbugzjfc\ExtendedInfo;
+namespace Endermanbugzjfc\ExtendedInfo\Device;
 
 final class Controls
 {
