@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Endermanbugzjfc\ExtendedInfo\Plugin;
 
-use Endermanbugzjfc\ExtendedInfo\DeviceInfo;
+use Endermanbugzjfc\ExtendedInfo\Device\DeviceInfo;
 use pocketmine\plugin\PluginBase;
 
 final class Loader extends PluginBase
