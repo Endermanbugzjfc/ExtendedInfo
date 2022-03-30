@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Endermanbugzjfc\ExtendedInfo;
 
-final class OperatingSystemTypes
+final class OperatingSystems
 {
     public string $unknown = "Unknown";
     public string $android = "Android";
