@@ -3,7 +3,8 @@
   "type": "project",
   "license": "MIT",
   "require": {
-    "pocketmine/pocketmine-mp": "^4.0"
+    "pocketmine/pocketmine-mp": "^4.0",
+    "sof3/infoapi": "^1.2"
   },
   "autoload": {
     "psr-4": {
