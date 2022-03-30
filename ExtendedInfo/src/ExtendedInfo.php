@@ -15,6 +15,7 @@ final class ExtendedInfo extends PluginBase
 
     protected function onEnable() : void
     {
+        DeviceInfo::init();
     }
 
     private static self $instance;

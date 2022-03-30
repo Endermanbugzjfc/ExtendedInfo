@@ -18,6 +18,10 @@ final class DeviceInfo extends Info
     ) {
     }
 
+    public static function init() : void
+    {
+    }
+
     public function toString() : string
     {
     }
