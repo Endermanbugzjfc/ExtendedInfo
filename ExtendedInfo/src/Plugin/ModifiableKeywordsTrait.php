@@ -15,7 +15,7 @@ trait ModifiableKeywordsTrait
      *
      * Then wait a few centuries until some server owners are willing to report the exception. And I figured out what item is missing.
      */
-    public function fromIndex(
+    public static function fromIndex(
         int $index
     ) : string {
         $map = (array)$this;
