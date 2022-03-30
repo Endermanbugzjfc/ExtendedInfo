@@ -2,7 +2,7 @@ name: ExtendedInfo
 author: Endermanbugzjfc
 version: 1.0.0
 api: 4.0.0
-main: Endermanbugzjfc\ExtendedInfo\ExtendedInfo
+main: Endermanbugzjfc\ExtendedInfo\ExtendedInfo\Plugin\ExtendedInfo
 src-namespace-prefix: Endermanbugzjfc\ExtendedInfo
 
 depend:

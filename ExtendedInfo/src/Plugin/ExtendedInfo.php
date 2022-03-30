@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Endermanbugzjfc\ExtendedInfo;
+namespace Endermanbugzjfc\ExtendedInfo\Plugin;
 
 use pocketmine\plugin\PluginBase;
 
