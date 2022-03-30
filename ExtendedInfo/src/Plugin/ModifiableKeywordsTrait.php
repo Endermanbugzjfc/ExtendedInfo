@@ -6,7 +6,7 @@ namespace Endermanbugzjfc\ExtendedInfo\Plugin;
 
 use RuntimeException;
 
-trait IndexToItemTrait
+trait ModifiableKeywordsTrait
 {
     /**
      * Maps index to the corresponding item from a data class that its properties are arranged in ascending order.
