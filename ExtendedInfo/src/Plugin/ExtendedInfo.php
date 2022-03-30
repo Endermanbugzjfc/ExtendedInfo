@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Endermanbugzjfc\ExtendedInfo\Plugin;
 
+use Endermanbugzjfc\ExtendedInfo\DeviceInfo;
 use pocketmine\plugin\PluginBase;
 
 final class ExtendedInfo extends PluginBase
