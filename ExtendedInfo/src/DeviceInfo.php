@@ -6,8 +6,9 @@ namespace Endermanbugzjfc\ExtendedInfo;
 
 use SOFe\InfoAPI\Info;
 use SOFe\InfoAPI\StringInfo;
+use Stringable;
 
-final class DeviceInfo extends Info
+final class DeviceInfo extends Info implements Stringable
 {
     public function __construct(
         private StringInfo $operatingSystem,
@@ -23,6 +24,11 @@ final class DeviceInfo extends Info
         $model = $this->deviceModel->toString();
         $os = $this->operatingSystem->toString();
         return "$model, running on $os";
+    }
+
+    public function __toString() : string
+    {
+        return $this->toString();
     }
 
     public static function init() : void
